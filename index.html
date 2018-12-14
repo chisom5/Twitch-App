@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Twitch | JSON</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="app">
+            <div class="header">
+                <div class="row">
+                    <div class="one-half column">
+                        <img src="image/twitch1.png" alt="twitch logo">
+                    </div>
+                    <div class="one-half column" id="twitch-heading">
+                        <h1>Streamer</h1>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Status -->
+            <div class="status">
+                <div class="row">
+                    <div class="one-third column">
+                        <button class="all-users focus">All</button>
+                    </div>
+
+                    <div class="one-third column">
+                        <button class="online-users">Online</button>
+                    </div>
+                    <div class="one-third column">
+                        <button class="offline-users">Offline</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Grid result -->
+            <section class="online"></section>
+            <section class="offline"></section>
+            <section class="unavailable"></section>
+
+        </div>
+        <div class="row">
+            <footer>
+                <p>Designed by Okoye Chisom</p>
+            </footer>
+        </div>
+    </div>
+
+
+    <!-- JQuery -->
+    <script src="js/jquery-3.2.1.js"></script>
+    <!-- JS -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

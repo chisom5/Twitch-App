@@ -1,0 +1,130 @@
+body {
+    font-size: 15px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #196090;
+}
+
+a:hover {
+    color: #196090;
+    text-decoration: underline;
+}
+
+.hidden {
+    display: none;
+}
+
+.header h1 {
+    margin-bottom: 0px;
+    margin-top: 16rem;
+    margin-left: -5rem;
+    color: #6441a5;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.app {
+    margin: 1em 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.app .header {
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 1px solid #efefef;
+}
+
+.status {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #efefef;
+}
+
+.status-message {
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.image-holder {
+    width: 55px;
+    height: 55px;
+    margin: 7.5px 10px;
+    border: 1px solid #222;
+    float: left;
+    background: url("https://cdn.rawgit.com/ayoisaiah/freeCodeCamp/master/twitch/images/placeholder-2.jpg");
+    background-size: cover;
+    border-radius: 50%;
+}
+
+button {
+    width: 180px;
+}
+
+.focus {
+    background-color: #6441a5;
+    color: #fff !important;
+}
+
+.online .bg-color {
+    background-color: rgb(46, 204, 113) !important;
+}
+
+.bg-color {
+    background-color: rgb(241, 196, 15);
+}
+
+.section-result .two-thirds {
+    margin: 20px auto;
+}
+
+.section-result .row {
+    border-bottom: 2px solid #fff;
+}
+
+
+/* MEDIA QUERY */
+
+@media (max-width:750px) {
+    img {
+        max-width: 110%;
+    }
+    .header h1 {
+        font-size: 3rem;
+        margin-bottom: 0px;
+        margin-top: 8rem;
+        margin-left: -8rem;
+    }
+    button {
+        width: 80%;
+    }
+}
+
+
+/* Mobile */
+
+@media screen and (max-width: 550px) {
+    #twitch-heading {
+        display: none;
+    }
+    .section-result {
+        text-align: center;
+    }
+    .image-holder {
+        margin: 7.5px auto 5px;
+        float: none;
+    }
+    span {
+        padding: 10px 10px;
+    }
+    button {
+        width: 80%;
+    }
+}
